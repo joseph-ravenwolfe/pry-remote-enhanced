@@ -3,9 +3,16 @@
 A way to start Pry remotely and to connect to it using DRb. This allows to
 access the state of the running program from anywhere.
 
+This repository is a fork of pry-remote with aims to:
+
+* Resolve existing issues in pry-remote
+* Refactor architecture to use more idiomatic Ruby
+* Add a testing suite
+* Improve support for Sidekiq and Foreman
+
 # Installation
 
-    gem install pry-remote
+    gem install pry-remote-enhanced
 
 # Usage
 
