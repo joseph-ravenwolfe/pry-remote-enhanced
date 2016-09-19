@@ -2,16 +2,16 @@
 # -*- coding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "pry-remote"
+  s.name = "pry-remote-enhanced"
 
-  s.version = "0.1.8"
+  s.version = "1.0.0"
 
-  s.summary     = "Connect to Pry remotely"
-  s.description = "Connect to Pry remotely using DRb"
-  s.homepage    = "http://github.com/Mon-Ouie/pry-remote"
+  s.summary     = "A modern fork of pry-remote"
+  s.description = "A modern fork of pry-remote"
+  s.homepage    = "http://github.com/josephjaber/pry-remote"
 
-  s.email   = "mon.ouie@gmail.com"
-  s.authors = ["Mon ouie"]
+  s.email   = "mail@josephjaber.com"
+  s.authors = ["Joseph Jaber"]
 
   s.files |= Dir["lib/**/*.rb"]
   s.files |= Dir["*.md"]
